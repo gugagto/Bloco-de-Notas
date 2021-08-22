@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+
+      android:icon="@drawable/ic_attach"
+        app:showAsAction="always"
+        android:title="Anexar">
+
+        <menu>
+            <item
+                android:id="@+id/action_take_photo"
+                android:icon="@drawable/ic_camera"
+                android:title="Abrir Câmera"
+                >
+
+            </item>
+
+            <item
+                android:id="@+id/action_choose_from_gallery"
+                android:icon="@drawable/ic_add_photo"
+                android:title="Abrir Galeria"
+                >
+
+            </item>
+
+        </menu>
+
+
+
+    </item>
+
+
+    <item
+        android:id="@+id/action_erase"
+        android:title="Apagar nota">
+
+    </item>
+
+
+</menu>

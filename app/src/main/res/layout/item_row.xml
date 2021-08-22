@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="4dp"
+    android:background="@color/black">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:padding="6dp"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"           android:layout_height="wrap_content"
+              android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="start"
+                android:src="@drawable/ic_attachment_black"
+                android:visibility="gone"
+                tools:visibility="visible"
+                />
+            <TextView
+                android:id="@+id/tv_title_item"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+
+                android:maxLines="1"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+
+
+            <TextView
+                android:id="@+id/tv_date_item"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:maxLines="1"
+                android:text="12/05/2020"
+                android:textColor="#AAA6A6"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/tv_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:maxLines="6"
+                android:text="TEXT"
+                android:textColor="#6A6868"
+                android:textSize="14sp" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

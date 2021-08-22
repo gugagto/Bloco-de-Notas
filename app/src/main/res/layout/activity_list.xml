@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE3E3"
+    android:keepScreenOn="false"
+    android:id="@+id/cv_list"
+    tools:context=".ListActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="20dp"
+
+        android:src="@drawable/note_add" />
+
+    <ImageButton
+
+        android:id="@+id/btn_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_up"
+        android:visibility="invisible"
+        tools:visibility="visible"
+
+
+        />
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
