@@ -112,7 +112,7 @@ class NewNoteActivity : AppCompatActivity() {
                dbHandler.addNote(notepad)
            }
 
-            // sa.save(bn,title)
+      
             dialog.dismiss()
             Toast.makeText(this,"Salvo com sucesso",Toast.LENGTH_SHORT).show()
             finish()
