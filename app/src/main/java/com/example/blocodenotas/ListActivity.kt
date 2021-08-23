@@ -21,7 +21,7 @@ class ListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list)
 
-        val sa = SharedAnottation.list
+      
 
         loadAll()
 
